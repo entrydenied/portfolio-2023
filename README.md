@@ -1,1 +1,1 @@
-This is my portfolio website that I made using html, css, javscript, and react.js.
+This is my portfolio website that I made using html, css, javscript.
