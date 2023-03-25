@@ -49,12 +49,6 @@ let swiperProjects = new Swiper(".projects__container", {
       },
   });
 
-/*=============== SWIPER TESTIMONIAL ===============*/
-
-
-/*=============== EMAIL JS ===============*/
-
-
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
 
