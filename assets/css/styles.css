@@ -374,6 +374,7 @@ body.dark-theme {
 .home__info {
   display: grid;
   row-gap: 2rem;
+  margin-top: 7.5rem;
 }
 
 .home__info-title {
