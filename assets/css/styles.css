@@ -810,8 +810,6 @@ body.dark-theme {
   }
 }
 
-/* For large devices */
-
 @media screen and (min-width: 767px){
   .home__container{
     grid-template-columns: 1fr 2fr 1fr;
@@ -830,7 +828,20 @@ body.dark-theme {
     padding-right: 0;
   }
 
-  .skills__container{
+  .skills__container,
+  .services__container{
     grid-template-columns: repeat(2, max-content);
+    column-gap: 5rem;
+  }
+
+  .projects__container{
+    width: 500px;
+  }
+
+  .contact__container{
+    justify-content: center;
+    column-gap: 8rem;
   }
 }
+
+/* For large devices */
