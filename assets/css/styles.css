@@ -791,6 +791,13 @@ body.dark-theme {
     width: 200px;
     justify-self: center;
   }
+
+  .home__info{
+    place-content: center;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
 }
 
 /* For medium devices */
@@ -818,6 +825,13 @@ body.dark-theme {
 
   .projects__container .swiper-button-next{
     right: 1rem;
+  }
+
+  .home__info{
+    place-content: center;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
   }
 }
 
