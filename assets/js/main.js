@@ -120,4 +120,17 @@ const scrollHeader = () =>{
 window.addEventListener('scroll', scrollHeader)
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+  origin: 'top',
+  distance: '60px',
+  duration: 2500,
+  delay: 400,
+  // reset: true  /* Animations repeat */
+})
 
+sr.reveal('.home__data, .projects__container')
+sr.reveal('.home__info div, .footer__container', {delay: 500, origin: 'bottom', interval: 100})
+sr.reveal('.skills__content:nth-child(1)', {origin: 'left'})
+sr.reveal('.skills__content:nth-child(2), .contact__container', {origin: 'top'})
+sr.reveal('.skills__content:nth-child(3)', {origin: 'right'})
+sr.reveal('.services__card', {interval: 100})
