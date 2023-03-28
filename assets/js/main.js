@@ -125,7 +125,7 @@ const sr = ScrollReveal({
   distance: '60px',
   duration: 2500,
   delay: 400,
-  reset: true  /* Animations repeat */
+  // reset: true  /* Animations repeat */
 })
 
 sr.reveal('.home__data, .projects__container')
