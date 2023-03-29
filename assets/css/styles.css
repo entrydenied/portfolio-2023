@@ -560,6 +560,11 @@ body.dark-theme {
   margin: .5rem 0 1.25rem;
 }
 
+/* .projects__box{
+  display: flex;
+  justify-content: space-between;
+} */
+
 .projects__button{
   display: inline-flex;
   align-items: center;
